@@ -1,0 +1,200 @@
+html, body {
+  font-family: 'Hind', sans-serif;
+  background: #4aaaa5;
+  height: 100%;
+  margin: 0;
+  line-height: 150%;
+}
+
+a {
+  color: #777777;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  padding: 10px 0;
+  font-family: 'Patua One', sans-serif;
+}
+
+.name h1 {
+  color: #fff;
+  padding-top: 30px;
+}
+
+.content-left h1 {
+  color: #4aaaa5;
+}
+
+h2 {
+  color: #4aaaa5;
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding: 10px 0;
+  font-family: 'Patua One', sans-serif;
+}
+
+p {
+  color: #777777;
+  font-size: 18px;
+  line-height: 150%;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ddd;
+}
+
+.header-wrapper {
+  height: 100px;
+  background: #ffffff;
+  margin: 0;
+  border-bottom: 2px solid #cccccc;
+}
+
+.name {
+  height: 100px;
+  background: #4aaaa5;
+  color: #fff;
+  margin-left: 200px;
+  margin-right: 20px;
+  padding: 0 50px;
+  float: left;
+}
+
+.nav {
+  color: #777777;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: 270px;
+  float: left;
+}
+
+.myimage {
+  width: 250px;
+  float: left;
+  padding: 20px 20px 10px 0;
+}
+
+.icon {
+  width: 70px;
+}
+
+.content-wrapper {
+  background-image: url("../images/dust_scratches.png");
+  min-height: 100%;
+  margin-bottom: 50px;
+}
+
+.content-left {
+  padding: 20px;
+  width: 606px;
+  background: #fff;
+  border: 2px solid #dddddd;
+  float: left;
+  margin: 50px 40px 20px 200px;
+}
+
+.content-right {
+  padding: 20px;
+  width: 226px;
+  background: #fff;
+  border: 2px solid #dddddd;
+  float: left;
+  margin: 50px auto 50px 0;
+}
+
+.forminput {
+  size: 100;
+  height: 25px;
+  border: solid 1px #888;
+}
+
+.button {
+  background-color: #4aaaa5;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #666666;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  margin-top: -50px;
+  padding-top: 30px;
+  height: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.textbox {
+  position: relative;
+  top: 150px;
+  height: 30px;
+  padding-top: 10px;
+  background: #4aaaa5;
+  display: block;
+}
+
+.box-set {
+  height: 750px;
+  ;
+}
+
+.box {
+  position: relative;
+  height: 200px;
+  width: 280px;
+  background: #4aaaa5;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.box1 {
+  top: 10px;
+  left: 5px;
+  background-image: url("../images/airplane.jpg");
+}
+
+.box2 {
+  top: -190px;
+  right: -320px;
+  background-image: url("../images/drop.jpg");
+}
+
+.box3 {
+  top: -140px;
+  left: 5px;
+  background-image: url("../images/abstract_trivia.jpg");
+}
+
+.box4 {
+  top: -340px;
+  right: -320px;
+  background-image: url("../images/cat.jpg");
+}
+
+.box5 {
+  top: -290px;
+  left: 5px;
+  background-image: url("../images/mobile.jpg");
+}

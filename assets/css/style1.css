@@ -1,0 +1,151 @@
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  margin: auto;
+  background: #4aaaa5;
+}
+
+a {
+  color: #777777;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 2em;
+  font-weight: bold;
+  display: block;
+  padding: 20px 0;
+}
+
+h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+  padding: 20px 0;
+}
+
+p {
+  color: #777777;
+  font-size: 18px;
+  line-height: 30px;
+  margin-right: 20px;
+}
+
+footer {
+  background: #666666;
+  color: #fff;
+  height: 50px;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: -10px;
+}
+
+.myImage {
+  float: left;
+  padding: 0 20px 0 0;
+}
+
+.header {
+  height: 100px;
+  background: #ffffff;
+  margin: 0;
+  border-bottom: 2px solid #cccccc;
+}
+
+.name {
+  height: 100px;
+  background: #4aaaa5;
+  color: #fff;
+  margin-left: 200px;
+  padding: 0 50px;
+  float: left;
+}
+
+.nav {
+  color: #777777;
+  margin-top: 50px;
+  margin-right: 300px;
+  float: right;
+}
+
+.contentWrapper {
+  background-image: url("../images/dust_scratches.png");
+  color: #4aaaa5;
+  height: 600px; /*try remove height and use cleaar fix here and remove footer class*/
+  margin-top: 0;
+  margin-bottom: 20px;
+  /*display: block;*/
+}
+
+.mainContent {
+  width: 960px;
+  margin-left: 200px;
+  padding: 0;
+}
+
+.content {
+  width: 608px;
+  background: #ffffff;
+  margin: 30px 38px 20px 0;
+  border: 2px solid #dddddd;
+  padding-left: 40px;
+  float: left;
+  /*position: relative;*/
+}
+
+.content hr {
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ddd;
+  margin: 0 1em 0 -0.5em;
+}
+
+.connect {
+  width: 266px;
+  background: #ffffff;
+  text-align: center;
+  border: 2px solid #dddddd;
+  margin: 30px 0 20px 0;
+  padding-bottom: 20px;
+  float: left;
+}
+
+.connect hr {
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ddd;
+  margin: 1.5em;
+}
+
+.clear {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.formInput {
+  size: 100;
+  height: 25px;
+}
+
+.button {
+  background-color: #4aaaa5;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.row1{
+  top: 500px;
+
+}
