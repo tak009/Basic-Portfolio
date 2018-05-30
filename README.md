@@ -1,2 +1,2 @@
-# Basic-Portfolio
-My Portfolio
+# Basic Portfolio
+[**My Portfolio**](https://taknalut.github.io/Basic-Portfolio)
